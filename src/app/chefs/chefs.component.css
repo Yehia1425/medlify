@@ -1,0 +1,202 @@
+.chefs{
+    margin: 7rem 0 
+}
+
+.chefs .main-title p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color:color-mix(in srgb, #212529, transparent 50%);
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--default-font);
+}
+
+.chefs .main-title h2{
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:"Amatic SC", serif;
+}
+
+.chefs .main-title h2 span{
+    color: #ce1212;
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:"Amatic SC", serif;
+}
+
+.chefs .chefs-box{
+
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.chefs .chefs-box .card{
+
+    width: calc( ( 100% - 60px ) / 3);
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+
+.chefs .chefs-box .card:hover{
+    transform: scale(1.07);
+
+}
+
+
+.chefs .chefs-box .card .layer{
+    width: fit-content;
+    background-color: #ffffff4d;
+    position: absolute;
+    top: 40px;
+    right: -140px;
+    transition: right 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 15px ;
+    gap: 15px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chefs .chefs-box .card:hover .layer{
+    right: 10px;
+}
+
+
+.chefs .chefs-box .card .card-image img{
+    width: 100%;
+    display: block;
+}
+
+.chefs .chefs-box .card .card-contant{
+
+    text-align: center;
+    padding: 20px 0;
+}
+.chefs .chefs-box .card .card-contant h3{
+    font-size:18.75px;
+    color: #212529;
+    font-weight: 700;
+    
+}
+
+
+.chefs .chefs-box .card .card-contant span{
+    font-size: 14px;
+    color: #7f7f90;
+}
+
+
+.chefs .chefs-box .card .card-contant p{
+    color: #7f7f90;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 25px;
+}
+.head-title{
+    padding-bottom: 60px;
+}
+
+
+
+.book-table .container{
+    background-color: #F8F8F8;
+}
+
+.head-title h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: color-mix(in srgb, #212529, transparent 50%);
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--default-font);
+}
+
+.head-title p{
+    color: #212529;
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:"Amatic SC", serif;
+}
+.head-title p span{
+    color: #ce1212;
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:"Amatic SC", serif;
+}
+
+
+.book-table .reservation img{ 
+    width: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.book table input{
+    outline: none !important;
+}
+
+.book-a-table .php-email-form input[type=text]{
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #212529;
+    background-color: color-mix(in srgb, #fff, transparent 20%);
+    border-color: color-mix(in srgb, #212529, transparent 80%);
+}
+
+
+.book-a-table .php-email-form input[type=email]{
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #212529;
+    background-color: color-mix(in srgb, #fff, transparent 20%);
+    border-color: color-mix(in srgb, #212529, transparent 80%);
+}
+.book-a-table .php-email-form input[type=date]{
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #212529;
+    background-color: color-mix(in srgb, #fff, transparent 20%);
+    border-color: color-mix(in srgb, #212529, transparent 80%);
+}
+.book-a-table .php-email-form input[type=time]{
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #212529;
+    background-color: color-mix(in srgb, #fff, transparent 20%);
+    border-color: color-mix(in srgb, #212529, transparent 80%);
+}
+
+button{
+    color: #fff;
+    background: #ce1212;
+    border: 0;
+    padding: 14px 60px;
+    transition: 0.4s;
+    border-radius: 4px;
+}

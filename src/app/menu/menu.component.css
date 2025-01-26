@@ -1,0 +1,198 @@
+.menu .nav-tabs{
+    border: 0;
+}
+
+.menu{
+    color: #212529;
+    background-color: #fff;
+    padding: 60px 0;
+    scroll-margin-top: 92px;
+    overflow: clip;
+    margin-top: 15px;
+}
+.tab-header{
+    padding: 30px 0;
+}
+.menu .tab-header p{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: 
+color-mix(in srgb,#212529, transparent 20%);
+    margin-bottom: 0;
+}
+.menu .tab-header h3{
+    color: #ce1212;
+    font-family:"Amatic SC", serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.menu .title p{
+    color: #212529;
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:"Amatic SC", serif;
+}
+
+.menu p span{
+    color: #ce1212;
+}
+.menu h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: 
+color-mix(in srgb, #212529, transparent 50%);
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--default-font);
+}
+.menu .nav-tabs{
+    background-color: #fff;
+    color: 
+color-mix(in srgb, #212529, transparent 20%);
+    margin: 0 15px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid 
+color-mix(in srgb, #fff, transparent 80%);
+}
+
+.menu .title{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.menu a{
+    color: #212529;
+}
+.menu .nav-link h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.menu .nav-item .active{
+    background-color: #fff;
+    color: #ce1212;
+    border-color: #ce1212;
+}
+
+.menu img{
+    width: 20rem;
+}
+
+.menu-item h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.menu-item{
+    text-align-last:center ;
+}
+.menu-item .ingredients{
+    font-family: var(--nav-font);
+    color: 
+color-mix(in srgb,#212529, transparent 50%);
+    margin-bottom: 5px;
+}
+
+.menu-item .price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ce1212;
+}
+
+.Testimonials{
+    background-color:#F7F7F7 ;
+
+}
+.Testimonials .contant h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: 
+color-mix(in srgb, #212529, transparent 50%);
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.Testimonials .contant p{
+    color: #212529;
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:"Amatic SC", serif;
+
+}
+
+.text-muted{
+    font-style: italic;
+    
+}
+.Testimonials .contant p span{
+    color: #ce1212;
+}
+
+
+.Testimonials .contant h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.Testimonials img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+
+.Testimonials .carousel h4{
+    font-size: 14px;
+    color: 
+color-mix(in srgb, #212529, transparent 40%);
+    margin: 0 0 10px 0;}
+
+.Testimonials .carousel span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888 ;
+}
+
+.Testimonials .carousel-indicators [data-bs-target="#carouselExampleCaptions"] {
+
+    background-color:#888888  ;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    display: block;
+    transition: opacity 0.2s ease;
+    border-radius: 50%
+    
+}
+
+
+.Testimonials .carousel-indicators [data-bs-target="#carouselExampleCaptions"].active{
+
+    background-color:#ce1212  ;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    display: block;
+    transition: opacity 0.2s ease;
+    border-radius: 50%
+}
+

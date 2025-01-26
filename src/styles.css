@@ -1,0 +1,23 @@
+.container{
+    max-width: 1320px !important;
+}
+/* navbar style */
+.navbar{
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 14px 0px #0000001b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+    ul{
+        list-style-type: none;
+    }

@@ -1,0 +1,46 @@
+.home{
+    background-color: #F2F2F2;
+    margin-top: 8rem;
+}
+.home h1{
+    font-family: "Amatic SC", serif;
+    font-size: 64px;
+    font-size: 700;
+}
+
+
+
+.btn-start{
+    color: #fff;
+    background: #CE1228;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 12px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.btn-end{
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #212543;
+    font-weight: 500;
+}
+.btn-end i{
+    color: #CE1228;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}

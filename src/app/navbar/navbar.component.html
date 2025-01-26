@@ -1,0 +1,33 @@
+
+  <nav class="navbar navbar-expand-lg text-capitalize " [class.p-4]="!isScrolling">
+    <div class="container">
+      <a class="navbar-brand name"  routerLink="home">Yummy</a>
+      <span>.</span>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link"  routerLink="home" routerLinkActive="my-color rounded" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="about" routerLinkActive="my-color rounded" >About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="menu" routerLinkActive="my-color rounded" >Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="chefs" routerLinkActive="my-color rounded" >Chefs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="gallery" routerLinkActive="my-color rounded">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact" routerLinkActive="my-color rounded" >Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+        <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
+        <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+    </div>
+    </div>
+  </nav>
