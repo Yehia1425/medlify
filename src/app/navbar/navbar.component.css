@@ -40,8 +40,16 @@
 
 
 
-
-span i{
-    
+.btn-start{
+    color: #fff;
+    background: #CE1228;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 12px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
