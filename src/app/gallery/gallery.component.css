@@ -1,7 +1,7 @@
 
 .gallery{
     
-    margin-top: 6rem;
+    margin-top: 150px;
     margin-bottom: 2rem;
     
 }
@@ -39,6 +39,8 @@
 
 .gallery-photos picture:hover img{
     scale: 1.1;
+    transition: 0.3s ease-out;
+    
 
 }
 
